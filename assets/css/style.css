@@ -1,0 +1,125 @@
+/* GENERAL */
+.poppins {font-family:"poppins", sans-serif;}
+.header {font-family:"adobe-garamond-pro", serif; font-size:60px}
+.gold {color:#B7A476; margin-top:60px}
+.white {color:white; margin-top:100px}
+.heroSection {background-color:#FCFAF5; min-height:700px;position:relative}
+.section {padding:30px 30px 0 30px;}
+.alignCenter {display:flex; flex-direction:column; align-items:center; justify-content: center;}
+.green {color:#41796D}
+.subText {font-size:22px; letter-spacing:0.2em}
+.subText1 {margin:-40px 0 60px 0}
+.subText2 {color:white; margin:15px 0}
+.subText3 {color:white; margin:20px; text-align:center}
+.subText4 {color:#41796D; margin-top:20px;max-width:600px}
+.svgContainer1 {max-width:300px}
+.zLow {z-index:0}
+.zHigh {z-index:9999}
+#websiteScript {width:200px; margin: -60px 00px 0 360px; z-index:999}
+#weckum {width:200px; margin: -60px 00px 0 360px; z-index:999}
+.svgContainer2 {width:100vw;margin-bottom:-40px}
+.svgContainer3 {width:40px}
+.row {width:100vw;height:100%; display:flex; flex-direction:row}
+.columnThin {width:50%}
+.columnThick {width:50%}
+.alignVertical {display:flex; flex-direction:column; justify-content: flex-start;}
+.widthAdjust {max-width:450px}
+.reveal1 {animation: reveal 10s 0s cubic-bezier(.55, 0, .1, 1) 1; transition: transform 0.5s cubic-bezier(.55, 0, .1, 1);}
+::selection {text-decoration: #41796D wavy underline}
+
+/* NUMBERS SECTION */
+    .numbersSection {background-color:#D74C4E; min-height:600px;position:relative}
+    .svgContainer4 {height:100%; width:100%; min-width:300px; margin-top:-70px;}
+    .ornBG {width:100%; height:100%; animation: 12s linear 0s infinite running ornamentAni;background-size:contain; background-repeat:no-repeat; background-position: top center}
+
+/* MEMORIES SECTION */
+    .memoriesSection {background-color:#41796D; min-height:600px;padding-bottom:40px !Important}
+    .alignSpacing {display:flex; flex-direction:row; justify-content: space-evenly;}
+    .photoGroup {width: 300px; display:flex; flex-direction:column; align-items: center; flex-wrap: nowrap;}
+    .polaroid {width:280px}
+
+/* PARTICLES + MAP */
+    .tsparticles {min-height:600px}
+    .red {color: #D74C4E; margin:30px 0}
+    .dropShadow {box-shadow: 8px 8px #41796D}
+    .textBorder {text-shadow: 3px 0 0 white, 0 3px 0 white, -3px 0 0 white, 0 -3px 0 white;}
+
+/* THANKS */
+    .svgContainer5 {width:100vw; margin-top:-200px}
+    .thankYou {min-height:600px; background-color:#FCFAF5; margin-top:-120px}
+    .img2 {max-width:400px}
+    .svgContainer6 img {max-width:200px; margin-top:20px}
+    .svgContainer7 img {width:100vw; margin-top:60px}
+
+/* FOOTER */
+    .greenbox {width:100vw; display:flex; background-color:#41796D; justify-content: space-between;margin-top:-2px;flex-direction: row; align-items: center;padding: 10px}
+    .subText5 {color:white; text-align:right; margin:20px}
+    .greenBtn {width:400px; transition:0.2s ease-in-out;cursor:pointer}
+    .greenBtn:hover {filter:brightness(1.1);cursor:pointer}
+
+#tsparticles {
+    width: 100%;
+    background-color: #F5F7FA;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position:relative;
+    z-index:-1;
+  }
+  
+  
+  @keyframes ornamentAni {
+    0% {background-image:url(/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/orn1.jpg);}
+    16% {background-image:url(/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/orn2.jpg)}
+    32% {background-image:url(/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/orn3.jpg)}
+    48% {background-image:url(/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/orn 4.jpg)}
+    64% {background-image:url(/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/orn5.jpg)}
+    80% {background-image:url(/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/orn6.jpg)}
+    100% {background-image:url(/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/orn1.jpg);}
+}
+
+
+.strikethrough {
+	display: inline-block;
+	position: relative;
+	transition: all 0.5s cubic-bezier(.55, 0, .1, 1);
+}
+
+.strikethrough:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 2px;
+	box-shadow: 0 1px #FCFAF5;
+	margin-top: -0.7em;
+	background: #41796D;
+	transform-origin: center left;
+	animation: strikethrough 2s 0.5s cubic-bezier(.55, 0, .1, 1) 1;
+	transition: transform 0.5s cubic-bezier(.55, 0, .1, 1);
+}
+
+@keyframes strikethrough {
+	from {
+		transform: scaleX(0);
+	}
+	to {
+		transform: scaleX(1);
+	}
+}
+
+@keyframes reveal {
+    0% {
+        opacity:0
+    }
+    30% {
+        opacity: 0%;
+    }
+    40% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
