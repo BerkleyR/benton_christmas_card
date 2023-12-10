@@ -139,37 +139,37 @@ tsParticles.load("tsparticles", {
         },
         image: [
           {
-            src: "/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/gold snowflake small.png",
+            src: "assets/imgs/gold snowflake small.png",
             width: 32,
             height: 32
           },
           {
-            src: "/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/snowflake dark green.png",
+            src: "assets/imgs/snowflake dark green.png",
             width: 38,
             height: 38
           },
           {
-            src: "/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/snowflake green small.png",
+            src: "assets/imgs/snowflake green small.png",
             width: 22,
             height: 22
           },
           {
-            src: "/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/snowflake green.png",
+            src: "assets/imgs/snowflake green.png",
             width: 38,
             height: 38
           },
           {
-            src: "/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/large gold snowflake.png",
+            src: "assets/imgs/large gold snowflake.png",
             width: 38,
             height: 38
           },
           {
-            src: "/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/snowflake red small.png",
+            src: "assets/imgs/snowflake red small.png",
             width: 22,
             height: 22
           },
           {
-            src: "/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/snowflake tan.png",
+            src: "assets/imgs/snowflake tan.png",
             width: 38,
             height: 38
           },

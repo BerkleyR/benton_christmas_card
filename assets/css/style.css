@@ -70,13 +70,13 @@
   
   
   @keyframes ornamentAni {
-    0% {background-image:url(/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/orn1.jpg);}
-    16% {background-image:url(/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/orn2.jpg)}
-    32% {background-image:url(/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/orn3.jpg)}
-    48% {background-image:url(/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/orn 4.jpg)}
-    64% {background-image:url(/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/orn5.jpg)}
-    80% {background-image:url(/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/orn6.jpg)}
-    100% {background-image:url(/Users/berkleybenton/Documents/Creative/CODE/benton_christmas_card/assets/imgs/orn1.jpg);}
+    0% {background-image:url(../imgs/orn1.jpg);}
+    16% {background-image:url(../imgs/orn2.jpg)}
+    32% {background-image:url(../imgs/orn3.jpg)}
+    48% {background-image:url(../imgs/orn4.jpg)}
+    64% {background-image:url(../imgs/orn5.jpg)}
+    80% {background-image:url(../imgs/orn6.jpg)}
+    100% {background-image:url(../imgs/orn1.jpg);}
 }
 
 
