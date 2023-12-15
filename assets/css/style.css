@@ -4,7 +4,7 @@
 .gold {color:#B7A476; margin-top:60px}
 .white {color:white; margin-top:100px}
 .heroSection {background-color:#FCFAF5; min-height:700px;position:relative}
-.section {padding:30px 30px 0 30px;}
+.section {padding:30px 30px 0 30px;max-width:100vw; overflow:hidden}
 .alignCenter {display:flex; flex-direction:column; align-items:center; justify-content: center;}
 .green {color:#41796D}
 .subText {font-size:22px; letter-spacing:0.2em}
@@ -26,6 +26,8 @@
 .widthAdjust {max-width:450px}
 .reveal1 {animation: reveal 10s 0s cubic-bezier(.55, 0, .1, 1) 1; transition: transform 0.5s cubic-bezier(.55, 0, .1, 1);}
 ::selection {text-decoration: #41796D wavy underline}
+.maxWidth {max-width:100% !important}
+#myFrame {width:640px}
 
 /* NUMBERS SECTION */
     .numbersSection {background-color:#D74C4E; min-height:600px;position:relative}
@@ -47,12 +49,12 @@
 /* THANKS */
     .svgContainer5 {width:100vw; margin-top:-200px}
     .thankYou {min-height:600px; background-color:#FCFAF5; margin-top:-120px}
-    .img2 {max-width:400px}
+    .img2 {width:400px}
     .svgContainer6 img {max-width:200px; margin-top:20px}
     .svgContainer7 img {width:100vw; margin-top:60px}
 
 /* FOOTER */
-    .greenbox {width:100vw; display:flex; background-color:#41796D; justify-content: space-between;margin-top:-2px;flex-direction: row; align-items: center;padding: 10px}
+    .greenbox {max-width:100vw; overflow:hidden; width:100vw; display:flex; background-color:#41796D; justify-content: space-between;margin-top:-2px;flex-direction: row; align-items: center;padding: 10px}
     .subText5 {color:white; text-align:right; margin:20px}
     .greenBtn {width:400px; transition:0.2s ease-in-out;cursor:pointer}
     .greenBtn:hover {filter:brightness(1.1);cursor:pointer}
@@ -122,4 +124,21 @@
     100% {
         opacity: 100%;
     }
+}
+
+@media screen and (max-width:478px) {
+.gold, .red, .white {text-align:center; line-height:1em}
+#weckum {margin: -49px 0px 60px 110px}
+.row {flex-direction:column; max-width:100%; margin:0}
+.columnThick, .columnThin {width:100%}
+.svgContainer4 {margin-top:-34px}
+.ornBG {min-height: 500px;margin-bottom:-30px}
+.white {margin-top:20px}
+.section {padding:30px}
+.subText2 {text-align:center}
+.red {margin-bottom:60px}
+#myFrame {width:300px}
+.thankYou {margin-top:0px}
+.greenbox {flex-direction:column; padding: 30px 10px}
+.subText5 {font-size:14px}
 }
